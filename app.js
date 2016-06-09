@@ -1,4 +1,4 @@
-angular.module('routes', [ngRoute])
+angular.module('routes', ['ngRoute'])
 
 .config(function($routeProvider){
 	$routeProvider
@@ -7,10 +7,10 @@ angular.module('routes', [ngRoute])
 			templateUrl: 'views/home.html'
 		})
 
-		.when('/', {
+		.when('/songs', {
 			templateUrl: 'views/songs.html'
 		})
-		.when('/', {
+		.when('/contactus', {
 			templateUrl: 'views/contactus.html' 
 		})		
 		.otherwise({
