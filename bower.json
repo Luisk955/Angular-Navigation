@@ -1,0 +1,22 @@
+{
+  "name": "Angular-Navigation",
+  "homepage": "https://github.com/Luisk955/Angular-Navigation",
+  "description": "ngRoute",
+  "main": "index.html",
+  "authors": [
+    "Luis Carlos Del Valle"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.6",
+    "angular-route": "^1.5.6"
+  }
+}
